@@ -1,10 +1,11 @@
 {
   "name": "streamingserver",
   "version": "1.0.0",
-  "description": "A simple streamingservice",
+  "description": "The simplest of streamingservices",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/gorkadread/streamingserver/issues"
   },
-  "homepage": "https://github.com/gorkadread/streamingserver#readme"
+  "homepage": "https://github.com/gorkadread/streamingserver#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
 }
